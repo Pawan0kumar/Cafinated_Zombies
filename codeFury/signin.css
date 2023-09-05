@@ -1,0 +1,101 @@
+/* Styling for the sign-in page */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: hsl(342, 80%, 80%);
+    margin: 0;
+    padding: 0;
+}
+
+/* Styles for the top bar */
+.top-bar {
+    background-color: hsl(342, 80%, 80%);
+    text-align: center;
+    padding: 10px;
+}
+
+/* Center the logo within the top bar */
+.centered-logo {
+    margin-top: 25px;
+    margin-bottom: 15px;
+    display: block;
+    margin: 0 auto;
+    width: 120px;
+    /* Adjust the maximum width as needed */
+    height: 120;
+    /* Maintain aspect ratio */
+}
+
+
+.signin-container {
+    background-color: #fff;
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    background: linear-gradient(45deg, #ff5733, #ff6b6b);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    border: 2px solid #ff6b6b;
+    /* Add a 2px border */
+    padding: 10px;
+    /* Add some padding */
+    background-color: #ffdb58;
+    /* Change the background color */
+}
+
+p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #777;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 1.2rem;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.btn {
+    background-color: #ff6b6b;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #ff4242;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+    .signin-container {
+        width: 90%;
+    }
+}
