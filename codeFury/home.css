@@ -1,7 +1,7 @@
 /* Header styling */
 header {
-    background-color: #333;
-    color: #fff;
+    background-color: #6F4E37;
+    color: #381a05;
     padding: 20px 0;
 }
 
@@ -12,6 +12,7 @@ header {
 }
 
 .mainlogo {
+    box-shadow: 20px 20px 25px rgba(100, 45, 5, 0.5);
     width: 125px;
     height: 125px;
     margin-right: 10px;
@@ -29,12 +30,13 @@ header {
 }
 
 .header-text {
-    font-size: 509px;
+    font-size: 600px;
+    width: 200px;
     /* Adjust the font size as needed */
     margin-right: 10px;
-    /* Add margin for spacing */
-    /* Add boundary and gradient background */
-    background: linear-gradient(45deg, #8B4513, #FFD700);
+
+    background-color: #381a05;
+
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 
@@ -43,12 +45,14 @@ header {
     /* Ensure inline block to contain the boundary and text */
 }
 
+
+
 /* Adjustments for the header content */
 .header-content {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-bottom: 2px solid #ff6600;
+
     /* Border between the logo and navbar */
     padding-bottom: 10px;
     /* Add padding to the border */
@@ -64,9 +68,11 @@ header {
 }
 
 .header-text {
-    font-size: 24px;
+    font-size: 50px;
+    width: 400px;
     /* Adjust the font size as needed */
-    margin-right: 10px;
+    margin-right: 1px;
+    margin-left: 70px;
     /* Add margin for spacing */
 }
 
@@ -98,14 +104,17 @@ header {
 
 .nav-links a {
     text-decoration: none;
-    color: #fff;
-    font-size: 16px;
+    color: #f1e3af;
+    font-size: 22px;
     font-weight: bold;
     transition: color 0.3s;
+    transition: transform 0.2s ease;
 }
 
 .nav-links a:hover {
-    color: #ff6600;
+    color: #1e0d01;
+    transform: scale(2.5rem);
+
 }
 
 /* Hero section styling */
@@ -130,7 +139,7 @@ header {
 }
 
 .cta-button {
-    background-color: #ff6600;
+    background-color: #5c2b09;
     color: #fff;
     padding: 10px 20px;
     border: none;
@@ -141,7 +150,7 @@ header {
 }
 
 .cta-button:hover {
-    background-color: #e65100;
+    background-color: #1a0c02;
 }
 
 /* Container for content */
@@ -170,20 +179,20 @@ header {
 
 /* About Us section styling */
 .about-us {
-    background-color: #fff;
+    background-color: #5c2b09;
     padding: 60px 0;
 }
 
 /* Contact section styling */
 .contact {
-    background-color: #f7f7f7;
+    background-color: #6F4E37;
     padding: 60px 0;
 }
 
 /* Footer styling */
 footer {
     background-color: #333;
-    color: #fff;
+    color: #f1e3af;
     text-align: center;
     padding: 20px 0;
 }

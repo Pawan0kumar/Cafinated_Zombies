@@ -2,14 +2,14 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: hsl(342, 80%, 80%);
+    background-color: #6F4E37;
     margin: 0;
     padding: 0;
 }
 
 /* Styles for the top bar */
 .top-bar {
-    background-color: hsl(342, 80%, 80%);
+    background-color: #f1e3af;
     text-align: center;
     padding: 10px;
 }
@@ -21,6 +21,7 @@ body {
     display: block;
     margin: 0 auto;
     width: 120px;
+    box-shadow: 10px 10px 10px rgba(113, 52, 9, 0.5);
     /* Adjust the maximum width as needed */
     height: 120;
     /* Maintain aspect ratio */
@@ -28,23 +29,25 @@ body {
 
 
 .signin-container {
-    background-color: #fff;
+    background-color: #f1e3af;
     max-width: 400px;
     margin: 50px auto;
     padding: 20px;
     border-radius: 5px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 20px 20px 30px rgba(64, 28, 3, 0.545);
     text-align: center;
 }
 
 h1 {
-    font-size: 2rem;
+    font-family: "Times New Roman", serif;
+    font-size: 2.5rem;
     margin-bottom: 10px;
-    background: linear-gradient(45deg, #ff5733, #ff6b6b);
+    background: linear-gradient(45deg, #593b25, #6F4E37);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
-    border: 2px solid #ff6b6b;
+    box-shadow: 5px 5px 8px rgba(77, 34, 4, 0.545);
+    border: 2px solid #6F4E37;
     /* Add a 2px border */
     padding: 10px;
     /* Add some padding */
@@ -70,16 +73,19 @@ label {
 
 input[type="text"],
 input[type="password"] {
-    width: 100%;
+    font-family: "Times New Roman", serif;
+    background-color: #f1e3af;
+    width: 95%;
     padding: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid#6F4E37;
     border-radius: 5px;
     font-size: 1rem;
 }
 
 .btn {
-    background-color: #ff6b6b;
+    background-color: #542f15;
     color: #fff;
+    box-shadow: 5px 5px 8px rgba(69, 30, 2, 0.545);
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
@@ -90,7 +96,7 @@ input[type="password"] {
 }
 
 .btn:hover {
-    background-color: #ff4242;
+    background-color: #4b2c16;
 }
 
 /* Media queries for responsiveness */

@@ -4,7 +4,7 @@ document.getElementById('login-form').addEventListener('submit', function (e) {
     const username = document.getElementById('username').value;
     const password = document.getElementById('password').value;
 
-    if (username === 'pawan' && password === 'pardon') {
+    if (username === 'Zombie123' && password === 'pardon') {
         // Redirect to the home page on successful login
         window.location.href = 'home.html';
     } else {
